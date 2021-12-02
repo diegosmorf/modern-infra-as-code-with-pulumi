@@ -71,7 +71,7 @@ Otherwise, the following steps demonstrate how to deploy your first Pulumi progr
     ```bash
     $ mkdir quickstart && cd quickstart
     $ pulumi new azure-csharp
-    $ pulumi new azure-csharp
+    $ pulumi stack init dev
     ```
 
     The `new` command offers templates for all languages and clouds.  Run it without an argument and it'll prompt     you with available projects.  This command created an Azure project written in C#.

@@ -24,7 +24,7 @@ namespace UnitTesting
 		{
 			//arrange			
 			var location = "brazilsouth";
-			var name = "br-test-TDC002-resourcegroup";
+			var name = "br-test-TDC003-resourcegroup";
 
 			//act
 			var resources = await TestAsync();
@@ -58,7 +58,7 @@ namespace UnitTesting
 		{
 			//arrange			
 			var location = "brazilsouth";
-			var name = "br-test-TDC002-serviceplan";
+			var name = "br-test-TDC003-serviceplan";
 
 			//act
 			var resources = await TestAsync();
@@ -80,7 +80,7 @@ namespace UnitTesting
 		{
 			//arrange			
 			var location = "brazilsouth";
-			var name = "br-test-TDC002-app";
+			var name = "br-test-TDC003-app";
 
 			//act
 			var resources = await TestAsync();
