@@ -32,11 +32,13 @@ This project cover concepts about:
 
 As a developer, you want to have your code following best practices like:
 
+- code versioning
 - no hardcoded strings in code
-- write methods to do one thing and one thing only 
+- write methods to do one thing and one thing only
 - make your code testable
 - make your code general enough so you can reuse it
- 
+- environment configuration managed by vaults
+- promote artifact instead of promote code 
 
 ## Infrastructure as Code (IaC) and Immutability
 
