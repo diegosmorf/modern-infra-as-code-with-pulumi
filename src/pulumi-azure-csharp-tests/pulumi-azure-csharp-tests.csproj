@@ -16,4 +16,8 @@
 		<PackageReference Include="NUnit3TestAdapter" Version="4.1.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\pulumi-azure-csharp\pulumi-azure-csharp.csproj" />
+	</ItemGroup>
+
 </Project>

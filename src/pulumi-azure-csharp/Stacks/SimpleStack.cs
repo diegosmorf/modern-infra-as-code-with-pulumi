@@ -11,7 +11,7 @@ namespace ModernInfrastructure.Stacks
         public SimpleStack()
         {    
             var location = "brazilsouth";
-            var projectName = "TDC003";
+            var projectName = "TDC010";
             var environment = Deployment.Instance.StackName;    
 
             var dockerImage = "nginxdemos/hello";
@@ -21,7 +21,7 @@ namespace ModernInfrastructure.Stacks
                 { "Environment", environment }, 
                 { "CreatedBy", "Diego-Cardoso" },
                 { "DeploymentDate", DateTime.UtcNow.ToString() },
-                { "BuildNumber", "2021-12-01.001" },
+                { "BuildNumber", $"2021-12-02.001" },
                 { "BillingAreaCode", "123456789" },
                 { "ProjectName", projectName }};
             

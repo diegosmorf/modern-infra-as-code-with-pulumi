@@ -2,9 +2,9 @@ using System.Collections.Immutable;
 using System.Threading.Tasks;
 using Pulumi.Testing;
 
-namespace UnitTesting
+namespace ModernInfrastructure.Tests
 {
-    class StackMock : IMocks
+    internal class StackMock : IMocks
     {
         public Task<(string? id, object state)> NewResourceAsync(MockResourceArgs args)
         {

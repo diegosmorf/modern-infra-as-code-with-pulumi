@@ -1,9 +1,7 @@
-// Copyright 2016-2020, Pulumi Corporation
-
-using System.Threading.Tasks;
 using Pulumi;
+using System.Threading.Tasks;
 
-namespace UnitTesting
+namespace ModernInfrastructure.Tests
 {
     public static class TestingExtensions
     {

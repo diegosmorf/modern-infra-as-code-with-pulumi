@@ -19,9 +19,8 @@ This project cover concepts about:
 
 ## 3rd Party Nuget Packages 
 - Pulumi
-- FluentAssertiong
+- FluentAssertion
 - NUnit
-- Flurl (Integration Test for REST API) 
 
 ## Development Tools
  - Visual Studio Code

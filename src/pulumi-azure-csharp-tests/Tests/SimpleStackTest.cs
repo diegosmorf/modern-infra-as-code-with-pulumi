@@ -8,7 +8,7 @@ using System.Collections.Immutable;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace UnitTesting
+namespace ModernInfrastructure.Tests
 {
     [TestFixture]
 	public class SimpleStackTest
@@ -25,7 +25,7 @@ namespace UnitTesting
         {
             //arrange			
             var location = "brazilsouth";
-            var name = "br-test-TDC003-resourcegroup";
+            var name = "br-test-App001-resourcegroup";
 
             //act
             var resources = await TestAsync();
@@ -59,7 +59,7 @@ namespace UnitTesting
 		{
 			//arrange			
 			var location = "brazilsouth";
-			var name = "br-test-TDC003-serviceplan";
+			var name = "br-test-App001-serviceplan";
 
 			//act
 			var resources = await TestAsync();
@@ -81,7 +81,7 @@ namespace UnitTesting
 		{
 			//arrange			
 			var location = "brazilsouth";
-			var name = "br-test-TDC003-app";
+			var name = "br-test-App001-app";
 
 			//act
 			var resources = await TestAsync();

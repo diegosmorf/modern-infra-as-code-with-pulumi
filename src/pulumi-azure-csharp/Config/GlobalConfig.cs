@@ -22,7 +22,7 @@ namespace ModernInfrascture.Config
                 { "Environment", environment }, 
                 { "CreatedBy", "Diego-Cardoso" },
                 { "DeploymentDate", DateTime.UtcNow.ToString() },
-                { "BuildNumber", "2021-12-01.001" },
+                { "BuildNumber", "2021-12-02.001" },
                 { "BillingAreaCode", "123456789" },
                 { "ProjectName", projectName }};            
         
