@@ -2,7 +2,7 @@
 using Pulumi;
 using ModernInfrastructure.Stacks;
 
-namespace ModernInfrascture
+namespace ModernInfrastructure
 {
     public class Program
     {

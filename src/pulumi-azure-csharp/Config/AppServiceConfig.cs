@@ -1,6 +1,6 @@
 ﻿using Pulumi;
 
-namespace ModernInfrascture.Config
+namespace ModernInfrastructure.Config
 {
     public class AppServiceConfig
     {

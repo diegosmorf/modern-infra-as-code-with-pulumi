@@ -1,7 +1,7 @@
 ﻿using System;
 using Pulumi;
 
-namespace ModernInfrascture.Config
+namespace ModernInfrastructure.Config
 {
     public class GlobalConfig
     {

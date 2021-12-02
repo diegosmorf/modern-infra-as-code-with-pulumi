@@ -1,5 +1,5 @@
 using FluentAssertions;
-using ModernInfrascture.Stacks;
+using ModernInfrastructure.Stacks;
 using NUnit.Framework;
 using Pulumi.Azure.Core;
 using Pulumi.AzureNative.Web;

@@ -1,8 +1,8 @@
-﻿using ModernInfrascture.Components;
-using ModernInfrascture.Config;
+﻿using ModernInfrastructure.Components;
+using ModernInfrastructure.Config;
 using Pulumi;
 
-namespace ModernInfrascture.Stacks
+namespace ModernInfrastructure.Stacks
 {
     public class ModernStack : Stack
     {

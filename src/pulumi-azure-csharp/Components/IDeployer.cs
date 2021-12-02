@@ -1,4 +1,4 @@
-﻿namespace ModernInfrascture
+﻿namespace ModernInfrastructure
 {
     public interface IDeployer
     {

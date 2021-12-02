@@ -1,8 +1,8 @@
-﻿using ModernInfrascture.Config;
+﻿using ModernInfrastructure.Config;
 using Pulumi.AzureNative.Web;
 using Pulumi.AzureNative.Web.Inputs;
 
-namespace ModernInfrascture.Components
+namespace ModernInfrastructure.Components
 {
     public class AppServicePlanDeployer: IDeployer
     {

@@ -1,7 +1,7 @@
-﻿using ModernInfrascture.Config;
+﻿using ModernInfrastructure.Config;
 using Pulumi.Azure.Core;
 
-namespace ModernInfrascture.Components
+namespace ModernInfrastructure.Components
 {
     public class ResourceGroupDeployer: IDeployer
     {
