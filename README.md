@@ -30,7 +30,7 @@ This project cover concepts about:
 
 # It is ALL about software
 
-As a developer, you want to have your code following best practices like:
+As a developer, I want to have my code following best practices like:
 
 - code versioning
 - no hardcoded strings in code
