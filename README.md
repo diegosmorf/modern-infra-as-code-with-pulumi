@@ -61,7 +61,12 @@ Otherwise, the following steps demonstrate how to deploy your first Pulumi progr
     When developing locally, we recommend that you install the Azure CLI and then authorize access with a user account.
 
     ```bash
-    az login --use-device-code
+    az login --use-device-code    
+    ```
+
+    This command will prompt you for an access token, including a way to launch your web browser to easily obtain one. You can script by using PULUMI_ACCESS_TOKEN environment variable.
+
+    ```bash    
     pulumi login
     ```
 
