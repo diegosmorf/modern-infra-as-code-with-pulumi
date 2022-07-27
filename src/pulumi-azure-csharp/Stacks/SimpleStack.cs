@@ -11,7 +11,7 @@ namespace ModernInfrastructure.Stacks
         public SimpleStack()
         {    
             var location = "brazilsouth";
-            var projectName = "TDC010";
+            var projectName = "App001";
             var environment = Deployment.Instance.StackName;    
 
             var dockerImage = "nginxdemos/hello";

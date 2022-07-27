@@ -12,7 +12,7 @@ namespace ModernInfrastructure.Stacks
         public ModernStack()
         {
             var location = "brazilsouth";
-            var projectName = "TDC010";
+            var projectName = "App001";
             var environment = Deployment.Instance.StackName;
 
             this.config = new GlobalConfig(environment,projectName,location);

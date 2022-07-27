@@ -27,17 +27,16 @@ This project cover concepts about:
  - GIT
  - GitHub(Repos, Actions)
  
-
 # It is ALL about software
 
 As a developer, I want to have my code following best practices like:
 
 - code versioning
-- no hardcoded strings in code
+- no hardcoded strings (sensitive data) in code
 - write methods to do one thing and one thing only
 - make your code testable
 - make your code general enough so you can reuse it
-- environment configuration managed by vaults
+- local debugging/troubleshooting
 - promote artifact instead of promote code 
 
 ## Infrastructure as Code (IaC) and Immutability
@@ -63,6 +62,7 @@ Otherwise, the following steps demonstrate how to deploy your first Pulumi progr
 
     ```bash
     az login --use-device-code
+    pulumi login
     ```
 
 2. **Create a Project**:
